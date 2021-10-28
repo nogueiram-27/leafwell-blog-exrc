@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  row-gap: 25px;
+}
+
+.head {
+  width: 70%;
+  text-align: end;
+}
+
+.icons {
+  display: flex;
+  column-gap: 30px;
+}
+
+.icon {
+  opacity: 0.2;
+}

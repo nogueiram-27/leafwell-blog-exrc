@@ -1,0 +1,76 @@
+.container {
+  display: grid;
+  grid-template-columns: 755px auto;
+  column-gap: 40px;
+  margin-top: 30px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.mainpic {
+  width: 755px;
+  height: 360px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #dc9238;
+}
+
+.h2 {
+  font-size: 29px;
+  line-height: 40px;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 15px;
+  margin-top: 15px;
+}
+
+.authorname {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: bold;
+  margin-bottom: 2px;
+}
+
+.authorjob {
+  font-size: 12px;
+  line-height: 14px;
+  color: #5b645b;
+}
+
+.otherswrapper {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  column-gap: 40px;
+}
+
+.otherspic {
+  width: 200px;
+  height: 115px;
+}
+
+.descriptionwrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 7px;
+}
+
+.description {
+  width: 50%;
+}

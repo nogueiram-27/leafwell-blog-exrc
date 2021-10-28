@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.optionwrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.underline {
+  width: 150px;
+  height: 10px;
+  border: solid 2px #36dc90;
+  border-color: #36dc90 transparent transparent transparent;
+  border-radius: 50%/10px 10px 0 0;
+  margin-right: 40px;
+}
+
+.title {
+  font-size: 14px;
+  line-height: 16px;
+  margin-right: 7px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signin {
+  margin-left: 10px;
+}

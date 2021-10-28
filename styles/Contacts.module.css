@@ -1,0 +1,29 @@
+.container {
+  margin-top: 80px;
+}
+
+.address {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.paragraph {
+  font-size: 14px;
+  line-height: 22px;
+  color: #000f00;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 10px;
+  display: flex;
+}
+
+.margin {
+  margin-right: 170px;
+}

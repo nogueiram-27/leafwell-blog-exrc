@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logowrapper {
+  width: 200px;
+}
+
+.optionswrapper {
+  display: flex;
+}
+
+.signin {
+  display: flex;
+  column-gap: 3px;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.signin p {
+  font-size: 14px;
+  line-height: 16px;
+}

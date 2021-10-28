@@ -1,0 +1,17 @@
+.container {
+  margin-top: 150px;
+}
+
+.infowrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.aboutus {
+  display: flex;
+}
+
+.icon {
+  margin-right: 250px;
+}

@@ -1,0 +1,12 @@
+.container {
+  display: grid;
+  grid-template: repeat(3, auto) / repeat(2, auto);
+  row-gap: 8px;
+  column-gap: 130px;
+}
+
+.paragraph {
+  font-size: 19px;
+  line-height: 30px;
+  color: #000f00;
+}
